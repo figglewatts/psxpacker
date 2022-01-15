@@ -24,4 +24,5 @@ jobs:
         goarch: ${{ matrix.goarch }}
         goversion: "1.17"
         binary_name: psxpacker
+        project_path: "./cmd/psxpacker"
         extra_files: LICENSE README.md
